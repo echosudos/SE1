@@ -38,7 +38,6 @@ int main() {
         // 9. Compute absolute difference.
         // If A > B, then C = A - B; otherwise, C = B - A.
         int C = (A > B) ? (A - B) : (B - A);
-        // Remove the conditional block below. Just get absolute value of A - B. We only have 1 comparison now
         
         // 10. Register D = 10 - C.
         int D = 10 - C;
@@ -58,3 +57,4 @@ int main() {
     
     return 0;
 }
+

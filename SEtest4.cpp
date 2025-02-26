@@ -7,8 +7,6 @@
 using namespace std;
 using namespace std::chrono;
 
-// Function implementing your logic: calculates the total number of turns
-// (DO NOT modify this function under any circumstances)
 int computeTurns(int N, const string &current, const string &target) {
     int output = 0;   // output register
     int counter = 0;  // counter register
