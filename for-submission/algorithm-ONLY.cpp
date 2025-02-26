@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-    // 1. Accept input N, current combination and target combination.
+    // Accept input N, current combination and target combination.
     int N;
     string current, target;
     
